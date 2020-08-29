@@ -1,0 +1,108 @@
+div.base {
+    background-color: red;
+    width: 50%;
+}
+
+.text-align {
+    text-align: center;
+    width: 10%;
+}
+
+.big-div {
+    width: 50%;
+    height: 500px;
+    background-color: honeydew;
+    text-align: center;
+}
+
+.small-div {
+    text-align: right;
+    background-color: hotpink;
+    width: 50%;
+    float: right;
+}
+
+.small-div-float-left{
+    float: left;
+    background-color: indigo;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.border-practice {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(165, 228, 219);  
+    border: inset;
+    border-width: 5px;
+    border-color:grey;
+    padding: 50px;
+}
+
+.more-border {
+    background-color: blue;
+    border: red dotted 250px;
+}
+
+.merry-border{
+    height: 500px;
+    width: 500px;
+    border-top: 10px dotted green;
+    border-bottom: 20px dotted red;
+    border-left: solid 10px red;
+    border-right: solid 5px green;
+}
+
+.content-box-testing{
+    background-color: gold;
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    border: solid black 5px;
+    padding: 10px;
+}
+
+.border-box-testing {
+    background-color: hotpink;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: solid black 5px;
+    padding: 10px;
+}
+
+.box-size-comparison {
+    width: 1000;
+    height: 150px;
+    background-color: cornsilk;
+}
+
+.box-size-comp-content-box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    border: black solid 5px;
+    padding: 5px;
+    float: left;
+}
+
+.default{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.box-size-comp-border-box {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: black solid 5px;
+    padding: 5px;
+    float: left;
+}

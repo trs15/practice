@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+p {
+    color: yellow;
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: "VT323-Regular";
+    src: url(../fonts/VT323-Regular.ttf) format("truetype");
+}
+
+h1 {
+    font-size: 50px;
+    font-family: VT323-Regular, Arial;
+}
+
+#font-testing {
+    color: blue;
+    font-size: 25;
+    /* font-weight: bold;
+    font-style: oblique;
+    text-decoration: overline; */
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#text-transforms {
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+}
+
+#letter-spacing{
+    letter-spacing: 10px;
+}
+
+#word-spacing{
+    word-spacing: 5px;
+}
+
+#text-align-left{
+    text-align: left;
+    line-height: 10%;
+    color: honeydew;
+}
+
+#text-align-right{
+    text-align: right;
+    line-height: 100%;
+    color: rgb(12, 10, 100)
+}
+
+#text-align-center{
+    text-align: center;
+    line-height: 10px;
+}
+
+#text-justify{
+    text-align: justify;
+    line-height: 2;
+}
+
+#list-style-types{
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    list-style-type: none;
+}
+
+#image-list-style{
+    list-style-image: url(https://picsum.photos/10);
+    list-style-position: outside;
+}
+
+#list-style-positioning{
+    list-style-position: inside;
+}
+
+#list-style-type-ol{
+    /* list-style-type: disc; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-greek; */
+    list-style-type: upper-alpha;
+}
+
+.green{
+    color: green;
+}
+
+.bold{
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.span-testing{
+    color:purple;
+}
+
+.span-testing #span1{
+    color:red;
+}
+
+.span-testing2{
+    color: orange;
+}
+
+.span-testing2 #span1 {
+    color: navy;
+    letter-spacing:50px;
+}
